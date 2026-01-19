@@ -1,0 +1,33 @@
+body.auth {
+  background: url('../assets/bg.jpg') center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.card {
+  width: 320px;
+  background: rgba(0,0,0,0.7);
+  padding: 25px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.header {
+  padding: 15px;
+  background: #1f2a44;
+  color: white;
+}
+
+.theater-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
